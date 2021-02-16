@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SchoolUtils Options</title>
+	<link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<label for="discordUrlRedirect">
+			Enable discord url redirect
+		</label>
+		<input type="checkbox" id="discordUrlRedirect">
+	</div>
+
+	<br>
+
+	<div class="container">
+		<label for="gimkitTranslate">
+			Enable gimkit translating
+		</label>
+		<input type="checkbox" id="gimkitTranslate">
+	</div>
+
+	<div class="container">
+		<label for="duolingoSolver">
+			Enable duolingo solving (REQUIRES MS AZURE API KEY SET)
+		</label>
+		<input type="checkbox" id="duolingoSolver">
+	</div>
+
+	<div class="container">
+		<label for="duolingoSolverKey">
+			MS Azure key
+		</label>
+		<input type="password" id="duolingoSolverKey">
+	</div>
+
+	<div id="status"></div>
+	<button id="save">Save</button>
+
+	<script src="options.js"></script>
+</body>
+
+</html>

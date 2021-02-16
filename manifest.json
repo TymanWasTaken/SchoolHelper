@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "SchoolHelper",
+    "version": "0.0.1",
+    "permissions": [
+        "webNavigation",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [{
+            "matches": [
+                "https://www.gimkit.com/live"
+            ],
+            "js": [
+                "gimkit.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.duolingo.com/skill/*"
+            ],
+            "js": [
+                "duolingo.js"
+            ]
+        }
+    ],
+    "options_page": "options/options.html"
+}
