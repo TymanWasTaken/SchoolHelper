@@ -2,11 +2,11 @@
 
 const redirects = {
     discord: {
-        "discordapp.com": "ptb.discord.com",
-        "discord.gg": "ptb.discord.com/invite",
-        "www.discordapp.com": "ptb.discord.com",
-        "www.discord.com": "ptb.discord.com",
-        "discord.com": "ptb.discord.com"
+        "discordapp.com": "canary.discord.com",
+        "discord.gg": "canary.discord.com/invite",
+        "www.discordapp.com": "canary.discord.com",
+        "www.discord.com": "canary.discord.com",
+        "discord.com": "canary.discord.com"
     }
 }
 

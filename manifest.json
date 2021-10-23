@@ -28,6 +28,14 @@
             "js": [
                 "duolingo.js"
             ]
+        },
+        {
+            "matches": [
+                "https://kahoot.it/v2/*"
+            ],
+            "js": [
+                "kahoot.js"
+            ]
         }
     ],
     "options_page": "options/options.html"
