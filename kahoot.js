@@ -14,6 +14,10 @@ document.addEventListener('keypress', async (e) => {
             alert(`Unrecognized error occured: ${res.error}`)
         } else {
             alert('Success')
+			chrome.runtime.sendMessage({
+				type: 'kahoot',
+				data: res
+			})
             return
         }
     }

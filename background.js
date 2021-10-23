@@ -46,3 +46,13 @@ chrome.webNavigation.onErrorOccurred.addListener((details) => {
 
     });
 })
+
+// Kahoot stuff woooo
+chrome.runtime.onMessage.addListener(message => {
+	console.log(message);
+	if (message.type === "kahoot") {
+		chrome.windows.create({
+			url: chrome.extension.getURL('kahootanswers/kahootanswers.html') + '?data=' + btoa(unescape(encodeURIComponent(JSON.stringify(message.data))))
+		})
+	}
+})
