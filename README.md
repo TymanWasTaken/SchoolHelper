@@ -1,5 +1,6 @@
 # SchoolHelper
-A chrome extension to help with things school related
+A chrome extension to "help" (cheat) with things school related
+<sub><sup>dont judge me please</sup></sub>
 
 ## Stuff it does
 - Solves two duolingo question types
@@ -34,3 +35,11 @@ When on a kahoot game, press `s` to open a prompt for the quiz ID, which can be 
 ### Discord url redirect
 
 Redirects all discord urls to `canary.discord.com` on ERR_CONNECTION_REFUSED
+
+## Installation
+
+- Go to chrome/edge extension settings and enable developer mode
+- Download this repository
+- Press load unpacked
+- Select the repo folder
+- Profit
