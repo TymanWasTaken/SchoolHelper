@@ -23,6 +23,14 @@ Auto types the correct, translated, text
   - This auto swaps from word bank mode to text box mode because it is easier to solve.
   - This one is a little messed up, but functions. It autofills the text in the box, and then makes sure the box is not edited for 1 second (idk why I had to do this but I had to so). Also, you need to type **something** in the text box for duolingo to make the sumbit button clickable
 
+### Kahoot solver
+
+When on a kahoot game, press `s` to open a prompt for the quiz ID, which can be found in the url of the teacher's browser. Once entered, a page will open showing all of the questions and their answers.
+
+#### Known issues
+- It only works on public quizzes (unfixable)
+- You have to refresh the page for the key to work
+
 ### Discord url redirect
 
-Redirects all discord urls to `ptb.discord.com` on ERR_CONNECTION_REFUSED
+Redirects all discord urls to `canary.discord.com` on ERR_CONNECTION_REFUSED
