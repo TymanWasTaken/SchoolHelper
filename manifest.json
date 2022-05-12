@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "SchoolHelper",
+	"version": "1.0",
+	"description": "Does the funny",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://gimkit.com/join*"
+			],
+			"js": [
+				"gimkit.js"
+			]
+		}
+	]
+}
